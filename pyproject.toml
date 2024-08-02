@@ -91,7 +91,7 @@ environment = { MACOSX_DEPLOYMENT_TARGET="14.0" }
 # Actually, we (temporarily) do not build for arm64 on github's CI, since it succeeds to build a wheel,
 # however the resulting wheel wants to link to intel IPP, which is not available on arm.
 # => mac arm61 will need to be built and uploaded from an M1 mac
-archs = ["x86_64"]
+archs = ["arm64"]
 
 #------------------------------------
 # linux wheels options
